@@ -87,7 +87,7 @@ end
 ###
 # Describes DummyBookmarker
 ###
-describe DummyBookmarker do
+describe DummyBookmarker, type: :model do
   ###
   # It behaves like BookmarkSystem::Bookmarker
   ###

@@ -60,7 +60,7 @@ end
 ###
 # Describes DummyBookmarkee
 ###
-describe DummyBookmarkee do
+describe DummyBookmarkee, type: :model do
   ###
   # It behaves like BookmarkSystem::Bookmarkee
   ###

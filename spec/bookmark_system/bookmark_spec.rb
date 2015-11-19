@@ -3,7 +3,7 @@ require 'spec_helper'
 ###
 # Describes BookmarkSystem::Bookmark
 ###
-describe BookmarkSystem::Bookmark do
+describe BookmarkSystem::Bookmark, type: :model do
   ###
   # Let bookmarkee be DummyBookmarkee.create
   ###
