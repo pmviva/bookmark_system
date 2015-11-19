@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/pmviva/bookmark_system.png?gbranch=master)](https://travis-ci.org/pmviva/bookmark_system)
 [![Gem Version](https://badge.fury.io/rb/bookmark_system.svg)](http://badge.fury.io/rb/bookmark_system)
+[![Dependency Status](https://gemnasium.com/pmviva/bookmark_system.svg)](https://gemnasium.com/pmviva/bookmark_system)
+[![Code Climate](https://codeclimate.com/github/pmviva/bookmark_system/badges/gpa.svg)](https://codeclimate.com/github/pmviva/bookmark_system)
 
 An active record bookmark system developed using ruby on rails 4.1 applying domain driven design and test driven development principles.
 
