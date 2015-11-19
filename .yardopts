@@ -1,0 +1,7 @@
+--readme README.md
+--title 'BookmarkSystem Documentation'
+--charset utf-8
+--embed-mixins
+--private
+--protected
+'lib/**/*.rb'
