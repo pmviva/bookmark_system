@@ -150,9 +150,9 @@ describe BookmarkSystem::Bookmark, type: :model do
     # Should scope bookmarks by bookmarkee type
     ####
     it "should scope bookmarks by bookmarkee type" do
-      scope = BookmarkSystem::Bookmark.where(bookmarkee_type: DummyBookmarkee)
+      scope = BookmarkSystem::Bookmark.where(bookmarkee_type: "DummyBookmarkee")
 
-      expect(BookmarkSystem::Bookmark.scope_by_bookmarkee_type(DummyBookmarkee)).to eq(scope)
+      expect(BookmarkSystem::Bookmark.scope_by_bookmarkee_type("DummyBookmarkee")).to eq(scope)
     end
 
     ###
@@ -168,9 +168,9 @@ describe BookmarkSystem::Bookmark, type: :model do
     # Should scope bookmarks by bookmarker type
     ####
     it "should scope bookmarks by bookmarker type" do
-      scope = BookmarkSystem::Bookmark.where(bookmarker_type: DummyBookmarker)
+      scope = BookmarkSystem::Bookmark.where(bookmarker_type: "DummyBookmarker")
 
-      expect(BookmarkSystem::Bookmark.scope_by_bookmarker_type(DummyBookmarker)).to eq(scope)
+      expect(BookmarkSystem::Bookmark.scope_by_bookmarker_type("DummyBookmarker")).to eq(scope)
     end
   end
 end
