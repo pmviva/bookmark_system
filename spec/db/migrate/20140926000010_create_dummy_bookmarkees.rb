@@ -3,7 +3,7 @@
 #
 # This class defines the create dummy bookmarkees migration in bookmark system
 ###
-class CreateDummyBookmarkees < ActiveRecord::Migration
+class CreateDummyBookmarkees < ActiveRecord::Migration[5.0]
   ###
   # Changes the database
   ###

@@ -3,7 +3,7 @@
 #
 # This class defines the test create bookmarks migration in bookmark system
 ###
-class CreateBookmarks < ActiveRecord::Migration
+class CreateBookmarks < ActiveRecord::Migration[5.0]
   ###
   # Changes the database
   ###
