@@ -11,5 +11,8 @@ ActiveRecord::Base.establish_connection adapter: 'sqlite3', database: ':memory:'
 if ActiveRecord.version.release() < Gem::Version.new('5.2.0')
   ActiveRecord::Migrator.migrate 'spec/db/migrate'
 else
-  ActiveRecord::MigrationContext.new('spec/db/migrate').migrate
+  ActiveRecord::MigrationContext.new(
+    'spec/db/migrate', 
+    ActiveRecord::Base.connection.schema_migration
+  ).migrate
 end
