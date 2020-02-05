@@ -174,4 +174,3 @@ describe BookmarkSystem::Bookmark, type: :model do
     end
   end
 end
-

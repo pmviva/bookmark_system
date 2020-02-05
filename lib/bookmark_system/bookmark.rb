@@ -152,4 +152,3 @@ module BookmarkSystem
       end
   end
 end
-

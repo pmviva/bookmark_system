@@ -79,7 +79,7 @@ shared_examples_for BookmarkSystem::Bookmarker do
     it "should scope bookmarkees filtered by bookmarkee type" do
       scope = BookmarkSystem::Bookmark.scope_by_bookmarker(bookmarker).scope_by_bookmarkee_type(DummyBookmarkee)
 
-      expect(bookmarker.bookmarkees_by(DummyBookmarkee)).to eq(scope)      
+      expect(bookmarker.bookmarkees_by(DummyBookmarkee)).to eq(scope)
     end
   end
 end
@@ -93,4 +93,3 @@ describe DummyBookmarker, type: :model do
   ###
   it_behaves_like BookmarkSystem::Bookmarker
 end
-

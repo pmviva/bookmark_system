@@ -43,4 +43,3 @@ class BookmarkSystemGenerator < Rails::Generators::Base
     migration_template 'migration.rb', 'db/migrate/create_bookmarks.rb'
   end
 end
-

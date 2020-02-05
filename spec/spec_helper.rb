@@ -119,4 +119,3 @@ class DummyBookmarker < ActiveRecord::Base
   # Acts as bookmarker
   act_as_bookmarker
 end
-

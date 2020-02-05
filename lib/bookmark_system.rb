@@ -42,4 +42,3 @@ module BookmarkSystem
 end
 
 ActiveRecord::Base.extend BookmarkSystem
-

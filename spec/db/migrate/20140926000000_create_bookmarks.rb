@@ -44,4 +44,3 @@ class CreateBookmarks < ActiveRecord::Migration[5.0]
     add_index :bookmarks, [:bookmarkee_id, :bookmarkee_type, :bookmarker_id, :bookmarker_type], name: "bookmarks_bookmarkee_bookmarker_idx", unique: true
   end
 end
-

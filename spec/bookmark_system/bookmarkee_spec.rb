@@ -66,4 +66,3 @@ describe DummyBookmarkee, type: :model do
   ###
   it_behaves_like BookmarkSystem::Bookmarkee
 end
-
